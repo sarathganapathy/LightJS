@@ -1,8 +1,8 @@
 # LightJS
-Light weight superfast JavaScript library with Virtual DOM implementation, LightJs does not use any third party dependency.
+Light weight super fast JavaScript library with Virtual DOM implementation, LightJs does not use any third party dependency.
 * It is very useful in developing component based web applications.
 * Uses props and state for data management.
-* Has similar lifecycles compared to react.
+* Has similar lifeCycles compared to react.
 * Auto redraw when set state is called.
 * Has its own publisher / subscriber chanel for communication between components.
 * Maintains components as child nodes for updating and redrawing when state changes.
@@ -14,7 +14,7 @@ Constructor gets called when component instance gets created.
 * It accepts props, elementReference and publisher/subscriber event as constructor props.
 #### willMount
 willMount gets called before rendering in creation phase.
-* Define all the child nodes in this lifecyle method.
+* Define all the child nodes in this lifeCycle method.
 #### render
 render gets called both on creation and update phase.
 * props and state will be available as parameter in the render function.
