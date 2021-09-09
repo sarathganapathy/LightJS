@@ -51,3 +51,8 @@ This function is used to create virtual DOM
 ## lightDom
 This provides the rendering functions to render the virtual DOM to real DOM
 eg: lightDom.render(Component, rootElement)
+
+## Referred Projects
+[Virtual DOM](https://dev.to/ycmjason/building-a-simple-virtual-dom-from-scratch-3d05)
+
+[Lifecycle Methods](https://reactjs.org/)
